@@ -8,6 +8,7 @@
     $ python createTrainJSON.py
 - This will create `data.json`  that describes the training set.
 - Run the following command to create two files `DAISI.json` and `DAISI.h5`
+
     $ python prepro.py --input_json "path_to_data.json" --num_val 1000 --num_test 1000 --images_root "path_to_images" --word_count_threshold 5 --output_json "output_path_DAISI.json" --output_h5 "output_path_DAISI.h5"
 
 ## Training
