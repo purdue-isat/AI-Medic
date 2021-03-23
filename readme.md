@@ -6,6 +6,7 @@
 - Change the `captions` and `images` path in `createTrainJSON.py` and run:
 
     $ python createTrainJSON.py
+    
 - This will create `data.json`  that describes the training set.
 - Run the following command to create two files `DAISI.json` and `DAISI.h5`
 
