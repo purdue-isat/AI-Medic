@@ -12,5 +12,5 @@
 ## Training
 - Download the VGG16 pretrained weights from [here] and plaxe them in `model` folder
 - To train the model, run:
-    $ th train.lua -input_h5 "path to DAISI.h5" -input_json "path to DAISI.json" -checkpoint_path "path to checkpoints" -id X
+   $ th train.lua -input_h5 "path to DAISI.h5" -input_json "path to DAISI.json" -checkpoint_path "path to checkpoints" -id X
 `id` is a reference number(int), in case you want to train multiple models.
