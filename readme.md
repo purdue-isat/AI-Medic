@@ -6,6 +6,7 @@
 - Change the `captions` and `images` path in `createTrainJSON.py` and run:
     
     $ python createTrainJSON.py
+    
     $ python inference.py --input_image = "./images/i_img.jpeg"
     
 - This will create `data.json`  that describes the training set.
